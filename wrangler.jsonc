@@ -1,0 +1,13 @@
+// Cloudflare Workers static-assets config (Josh, 2026-10-04). Same pattern as the Arena,
+// the Review Bowl and the hub: no server code; Cloudflare serves the built dist/ folder.
+// Ready for the games' move to Cloudflare (BK 2026-10-03 22:01: "move games to cloud flare too
+// ... as we're polishing them"). Netlify ignores this file.
+{
+  "name": "last-compromise-game",
+  "compatibility_date": "2025-09-01",
+  "previews": {},
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
