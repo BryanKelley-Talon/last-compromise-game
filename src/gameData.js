@@ -79,7 +79,7 @@ const chapters = [
     roleId: 'hayden', subtitle: 'Lexington, Kentucky · ~1844',
     role: 'Lewis Hayden, ~32 — enslaved hotel porter; self-taught reader',
     years: '~1844',
-    quote: `"All legislation, all government, all society is founded upon the principle of mutual concession, politeness, comity, courtesy; upon these, everything is based."`,
+    quote: `"All legislation, all government, all society, is formed upon the principle of mutual concession, politeness, comity, courtesy; upon these, everything is based."`,
     quoteSource: 'Henry Clay, Senate speech on the Compromise, 1850',
     context: [
       `You are Lewis Hayden, and you have already lost one family. Years ago your first wife and small son were sold — passed through the hands of Senator Henry Clay, Kentucky's own "Great Compromiser" — and carried to the Deep South. You don't know if they're alive. That is what it means to be property: the men who broker the nation's compromises can sell your child between breakfast and dinner.`,
@@ -105,7 +105,7 @@ const chapters = [
       },
       {
         year: '~1844',
-        situation: `Fairbank's plan asks you to powder your face pale and pose as a white gentleman with a servant, Joseph hidden under the carriage seat.`,
+        situation: `Fairbank's plan asks you to powder your face pale and pass as a white gentleman and lady with Harriet, veiled and cloaked, Joseph hidden under the carriage seat.`,
         question: `To become free, Hayden had to impersonate the very people who enslaved him. What does it cost to save yourself by performing the thing the system says you can never be?`,
         options: [
           { label: 'A', text: `Commit to the disguise; play the master.`,
@@ -143,12 +143,12 @@ const chapters = [
     quoteSource: 'Abolitionist motto, after Josiah Wedgwood, 1787',
     context: [
       `You made it. You and Harriet took the name Hayden and opened a store, and it does well — the first money that was ever yours. But freedom came with a bill. Calvin Fairbank, who drove your carriage north, was caught going back to Kentucky. He's serving fifteen years — five for each person he freed. He's in a cell because he got you out of one.`,
-      `And by Kentucky law you're still, on paper, a fugitive. You've saved a little. Enough, perhaps, to buy your own legal freedom — or to help buy Fairbank out. Not both. Not yet.`,
+      `And by Kentucky law you're still, on paper, a fugitive. Boston friends will give, if you ask. Enough, perhaps, to buy your own legal freedom — or to buy Fairbank out. Not both. Not yet.`,
     ],
     decisions: [
       {
         year: '1846–1849',
-        situation: `$650, a fortune for a man three years out of slavery.`,
+        situation: `$650 — a fortune, raised dollar by dollar from Boston friends.`,
         question: `You owe the law nothing and your rescuer everything. When safety and the debt to the person who freed you pull opposite ways, which comes first?`,
         options: [
           { label: 'A', text: `Buy your own freedom first.`,
@@ -199,13 +199,13 @@ const chapters = [
   {
     id: 3, title: 'The Law Comes North', accentColor: ACCENT,
     roleId: 'hayden', subtitle: 'Boston · 1850',
-    role: 'Lewis Hayden — safe-house keeper at 66 Phillips St.',
+    role: 'Lewis Hayden — safe-house keeper on Southac Street (now 66 Phillips St.)',
     years: '1850',
     quote: `"This filthy enactment was made in the nineteenth century by people who could read and write. I will not obey it, by God."`,
     quoteSource: 'Ralph Waldo Emerson, journal, on the Fugitive Slave Law, 1851',
     context: [
       `In September 1850, Congress passes the Fugitive Slave Act — the keystone of Clay's Compromise — and it reaches all the way to Boston. Any marshal can now seize a Black person on a slave-catcher's say-so: no trial, no jury, no testimony from the accused. Feeding or hiding a fugitive is a federal crime. The law conscripts every Northerner into slavery's service.`,
-      `Within weeks, Ellen and William Craft — who escaped Georgia by the same disguise that freed you — arrive with catchers on their trail. The men hunting them are standing in your street.`,
+      `Within weeks, two Georgia slave catchers arrive in Boston hunting Ellen and William Craft — neighbors who have lived under your roof since 1849, and who escaped Georgia by passing as white, just as you once did. The men hunting them are standing in your street.`,
     ],
     decisions: [
       {
@@ -223,11 +223,11 @@ const chapters = [
       },
       {
         year: '1850',
-        situation: `The catchers come to your barricaded door. In the cellar sit kegs of gunpowder, and you can tell the men on your step — believably — that you'll blow the house with everyone in it before you surrender a soul inside.`,
+        situation: `If the catchers come to your barricaded door, you'll be ready. In the cellar sits a keg of gunpowder with a fuse attached, and you can tell anyone who asks — believably — that you'll blow the house with everyone in it before you surrender a soul inside.`,
         question: `Is a threat of violence you're prepared to keep an act of protection — or does meeting the law with a bomb make you into something the law can finally condemn?`,
         options: [
           { label: 'A', text: `Make the threat, and mean it.`,
-            consequence: `They read your face, decide you're not bluffing, and leave. No shot, no law obeyed — resistance by the credible promise of catastrophe.`,
+            consequence: `Word of the powder keg spreads through Boston. No catcher ever tests your door. No shot, no law obeyed — resistance by the credible promise of catastrophe.`,
             meters: { network: +10, conscience: +4, enforcement: +6, safety: -4 } },
           { label: 'B', text: `Hold the door with barricades and lawyers only.`,
             consequence: `Defensible in court, less certain to work. You bet on delay and the Committee's attorneys.`,
@@ -261,7 +261,7 @@ const chapters = [
     quoteSource: 'William H. Seward, U.S. Senate, 1850',
     context: [
       `Marshals seize Shadrach Minkins, a waiter who escaped Virginia, and hold him in the courthouse to ship South. The lawyers file motions; everyone knows how that ends. You have about twenty men who'll follow you through the doors and take Minkins by force, in daylight, from federal custody.`,
-      `It's never been done. Succeed, and you humiliate the Fugitive Slave Act before the whole country. Fail, and you hang. The committee splits the way it always does — the white members counsel patience; the Black members, whose freedom is actually on the table, are ready to move.`,
+      `It's never been done. Succeed, and you humiliate the Fugitive Slave Act before the whole country. Fail, and you face federal prison — and Washington is already using the word treason. The committee splits the way it always does — the white members counsel patience; the Black members, whose freedom is actually on the table, are ready to move.`,
     ],
     decisions: [
       {
@@ -316,8 +316,8 @@ const chapters = [
     quote: `"I am in earnest — I will not equivocate — I will not excuse — I will not retreat a single inch — AND I WILL BE HEARD."`,
     quoteSource: 'William Lloyd Garrison, The Liberator, 1831',
     context: [
-      `Weeks later the state answers. When marshals seize Thomas Sims — seventeen, escaped from Georgia — the courthouse is wrapped in heavy chains and ringed by hundreds of guards; the judges duck under the chains to enter, the law itself bowing to hold a boy.`,
-      `At dawn, armed men march Sims to a ship at Long Wharf and send him back to Georgia, where he is publicly whipped. Boston, cradle of the Revolution, has returned a child to slavery under federal guns. This is what the Compromise looks like when it holds.`,
+      `Weeks later the state answers. When marshals seize Thomas Sims — a young man escaped from Georgia — the courthouse is wrapped in heavy chains and ringed by hundreds of guards; the judges duck under the chains to enter, the law itself bowing to hold one man.`,
+      `At dawn, armed men march Sims to a ship at Long Wharf and send him back to Georgia, where he is publicly whipped. Boston, cradle of the Revolution, has returned a man to slavery under armed guard. This is what the Compromise looks like when it holds.`,
     ],
     decisions: [
       {
@@ -341,14 +341,14 @@ const chapters = [
           { label: 'A', text: `Call for armed resistance.`,
             consequence: `You harden the movement's core and frighten the moderate middle you might have won.`,
             meters: { network: +8, enforcement: +6, conscience: -2 } },
-          { label: 'B', text: `Weaponize the shame — make moderates watch what complicity costs a child.`,
+          { label: 'B', text: `Weaponize the shame — make moderates watch what complicity costs a human being.`,
             consequence: `Slower, but it turns bystanders into abolitionists. Sims becomes a wound the North won't stop touching.`,
             meters: { conscience: +12, network: +2 } },
         ],
       },
     ],
     hingeQuestion: {
-      question: `The return of Thomas Sims to slavery under heavy federal guard in Boston most directly contributed to —`,
+      question: `The return of Thomas Sims to slavery under heavy armed guard in Boston most directly contributed to —`,
       options: [
         `a sharp decline in antislavery feeling across the North`,
         `the repeal of the Fugitive Slave Act by Congress`,
@@ -356,7 +356,7 @@ const chapters = [
         `the immediate outbreak of the Civil War`,
       ],
       correctIndex: 2,
-      explanation: `The spectacle of Boston — the "cradle of the Revolution" — marching a seventeen-year-old back to slavery under chains and federal guns turned a legal proceeding into a public shaming of the law. Rather than quiet antislavery feeling, such renditions dramatized slavery's reach into the free states and pushed more Northerners toward the antislavery cause. It neither repealed the law nor started the war, but it deepened sectional hostility.`,
+      explanation: `The spectacle of Boston — the "cradle of the Revolution" — marching a young man back to slavery under chains and armed guard turned a legal proceeding into a public shaming of the law. Rather than quiet antislavery feeling, such renditions dramatized slavery's reach into the free states and pushed more Northerners toward the antislavery cause. It neither repealed the law nor started the war, but it deepened sectional hostility.`,
       regentsSkill: 'Causation',
     },
   },
@@ -412,7 +412,7 @@ const chapters = [
         `resolved the sectional crisis over slavery in the territories`,
       ],
       correctIndex: 1,
-      explanation: `The costly, military return of Anthony Burns — coming just as the Kansas-Nebraska Act reopened the question of slavery in the territories — pushed formerly moderate Northerners toward abolitionism, as the mill owner Amos Lawrence famously admitted. It did not end renditions or settle the territorial crisis; instead it hardened Northern opinion. Burns is a classic turning point: an event that visibly shifted the direction of public sentiment.`,
+      explanation: `The costly, military return of Anthony Burns — coming just as the Kansas-Nebraska Act reopened the question of slavery in the territories — pushed formerly moderate Northerners toward abolitionism, as the textile merchant Amos A. Lawrence famously admitted. It did not end renditions or settle the territorial crisis; instead it hardened Northern opinion. Burns is a classic turning point: an event that visibly shifted the direction of public sentiment.`,
       regentsSkill: 'Turning Points',
     },
   },
@@ -472,7 +472,7 @@ const chapters = [
         `slavery had been peacefully abolished across the nation`,
       ],
       correctIndex: 2,
-      explanation: `Dred Scott denied Black Americans citizenship and any rights the government was bound to respect; John Brown's raid showed that some had turned to violence to end slavery; and secession followed Lincoln's election. Taken together, these events mark the collapse of the compromise strategy — Missouri, 1850, Kansas-Nebraska — that had held the Union together for decades. The nation's long effort to bargain over slavery gave way to war, the change-over-time point at the heart of Hayden's story.`,
+      explanation: `Dred Scott denied Black Americans citizenship — Taney wrote they had "no rights which the white man was bound to respect" — and struck down the Missouri Compromise line, ruling Congress could not bar slavery from the territories; John Brown's raid showed that some had turned to violence to end slavery; and secession followed Lincoln's election. Taken together, these events mark the collapse of the compromise strategy — Missouri in 1820 and the Compromise of 1850, until Kansas-Nebraska tore up the Missouri line — that had held the Union together for decades. The nation's long effort to bargain over slavery gave way to war, the change-over-time point at the heart of Hayden's story.`,
       regentsSkill: 'Continuity & Change',
     },
   },
@@ -487,7 +487,7 @@ export const game = {
     accent: ACCENT, // #5AA57B — accentFor("11.3"), antebellum green (token file)
     period: 'US History · 11R · Regents Aligned',
     saveKey: 'last_compromise_save_v1',
-    subdomain: 'last-compromise-game.flashpointhistory.com',
+    subdomain: 'last-compromise.flashpointhistory.com',
     standardsLine: '11.3 · Expansion, Sectionalism & Civil War',
     deck: `Seven chapters, one life. Lewis Hayden — self-emancipated from Kentucky, Boston shopkeeper, Underground Railroad conductor — deciding again and again how far to go to defy a law that made freedom a crime.`,
     tagline: `At what point does compromise become complicity — and was there ever a compromise that could have held?`,
